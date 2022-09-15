@@ -1,0 +1,1 @@
+web: gunicorn certified_appraisal.wsgi
