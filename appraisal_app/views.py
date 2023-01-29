@@ -1,14 +1,14 @@
 from django.shortcuts import render, redirect
 from django.contrib import messages
 from .models import *
-# from dotenv import load_dotenv
-# import bcrypt
+from dotenv import load_dotenv
+import bcrypt
 import requests
 import json
 import geocoder
 import os
 
-# load_dotenv()
+load_dotenv()
 
 def index(request):
     return render(request, 'index.html')
