@@ -30,7 +30,7 @@ SECRET_KEY= str(os.getenv('SECRET_KEY'))
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'FALSE'
 
-ALLOWED_HOSTS = ['nkyeon0709.pythonanywhere.com']
+ALLOWED_HOSTS = ['www.certifiedappraisal.net']
 
 
 # Application definition
